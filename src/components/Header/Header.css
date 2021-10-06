@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content:space-around;
+}
+
+.wrapper__start {
+  display: flex;
+  justify-content:space-between;
+  width: 20%;
+}
+
+.wrapper__center {
+  display: flex;
+}
+
+.wrapper__end {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+}
+
+.page {
+  color: #1D1F22;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
