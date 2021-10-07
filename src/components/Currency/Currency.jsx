@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import './Currency.css'
 // import dollar from './dollar.png'
+import './Currency.css'
 
 class Currency extends Component {
   render() {
     return (
       <select className="currency-change">
-        <option>USD</option>
-        <option>EUR</option>
-        <option>JPY</option>
+        <option value=""></option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
       </select>
     );
   }

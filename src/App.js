@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {BrowserRouter} from 'react-router-dom'
 import Header from './components/Header/Header.jsx'
+// import MyModal from './components/UI/MyModal/MyModal.jsx'
 import './styles/App.css'
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Header />
+        {/* <MyModal /> */}
       </BrowserRouter>
     );
   }
