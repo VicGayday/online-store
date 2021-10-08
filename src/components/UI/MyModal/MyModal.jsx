@@ -10,8 +10,8 @@ const { children, visible, setVisible } = this.props
       rootClasses.push(classes.active);
     }
     return (
-      <div className={rootClasses.join(' ')}>
-        <div className={classes.myModalContent}>
+      <div className={rootClasses.join(' ')} onClick = {() => { setVisible(!visible)}}>
+        <div className={classes.myModalContent} onClick={(e) => e.stopPropagation()}>
           {children}
         </div>
       </div>

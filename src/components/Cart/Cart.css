@@ -1,0 +1,46 @@
+.bag-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+span {
+    font-weight: 700;
+}
+
+.total-amount-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.total-amount {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.gotobag {
+  border: 1px solid #1D1F22;
+  background-color:white;
+  padding: 5% 10%;
+  word-wrap:normal;
+  margin-right: 5%;
+}
+
+.gotopay {
+  background: #5ECE7B;
+  padding: 5% 10%;
+  color: white;
+  border: none;
+  word-wrap:normal;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
