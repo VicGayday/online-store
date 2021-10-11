@@ -1,7 +1,8 @@
 .currency-change {
   background: url('./dollar.png') left no-repeat, url('./arrow-down.png') right no-repeat;
-  background-size: 1.55em, 0.5em;
-  padding: 0 5px;
+  background-size: 1.35em, 0.5em;
+  /* padding: 0 5px; */
+  margin: 0 1vw;
   border: none;
   outline: none;
   -webkit-appearance: none;

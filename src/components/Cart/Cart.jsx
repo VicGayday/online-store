@@ -16,9 +16,7 @@ class Cart extends Component {
   render() {
     return (
       <div>
-        <button type="button" onClick={this.onClick}>
-          Cart
-        </button>
+        <button type="button" className="cart" onClick={this.onClick}></button>
         {this.state.isShown && (
           <MyModal visible={true} setVisible={this.onClick}>
             <div className="bag-title">

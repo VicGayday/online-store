@@ -44,3 +44,27 @@ span {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+
+.cart {
+  margin: 6vh 1vw 2vh;
+  background: url('./cart.png') center no-repeat;
+  background-size: cover;
+    height: 1.85em;
+    width: 1.6em;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+@media screen and (min-width: 375px) {
+  .cart {
+    margin: 5.5vh 1vw 2vh;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .cart {
+    margin: 3vh 1vw 2vh;
+  }
+}

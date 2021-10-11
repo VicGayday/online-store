@@ -1,4 +1,16 @@
 .logo {
-  width: 3vw;
-  height: 5vh;
+  width: 9vw;
+  height: 4vh;
+}
+
+@media screen and (min-width: 800px) {
+  .logo {
+    width: 7vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    width: 5vw;
+  }
 }
