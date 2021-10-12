@@ -63,8 +63,9 @@ span {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   .cart {
     margin: 3vh 1vw 2vh;
   }
 }
+
