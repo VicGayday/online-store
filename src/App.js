@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import {BrowserRouter} from 'react-router-dom'
 import Header from './components/Header/Header.jsx'
-// import MyModal from './components/UI/MyModal/MyModal.jsx'
+import Routes from './routes'
 import './styles/App.css'
 
 class App extends Component {
-  render() {
+    render() {
     return (
       <BrowserRouter>
         <Header />
-        {/* <MyModal /> */}
+        <Routes />
       </BrowserRouter>
     );
   }

@@ -1,7 +1,9 @@
 .currency-change {
-  background: url('./dollar.png') left no-repeat, url('./arrow-down.png') right no-repeat;
-  background-size: 1.35em, 0.6em;
-  /* padding: 0 5px; */
+  /* background: url('./dollar.png') left no-repeat, url('./arrow-down.png') right no-repeat; */
+  /* background-size: 1.35em, 0.6em; */
+  padding: 0 5px;
+  background: url('./arrow-down.png') right no-repeat;
+  background-size: 0.6em;
   margin: 0 1vw;
   border: none;
   outline: none;
@@ -11,8 +13,13 @@
   overflow: hidden;
   /* min-width: fit-content; */
 }
-
+/*
 .currency-change:focus {
   background: url('./dollar.png') left no-repeat, url('./arrow-up.png') right no-repeat;
   background-size: 1.35em, 0.6em;
+} */
+
+.currency-change:focus {
+  background: url('./arrow-up.png') right no-repeat;
+  background-size: 0.6em;
 }
